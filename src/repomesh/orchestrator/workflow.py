@@ -142,6 +142,10 @@ class OrchestrationWorkflow:
                     agent_type=agent_type,
                     description=f"Analyze {metadata.name} with {agent_type.value} agent",
                     priority=5,
+                    result=None,
+                    error=None,
+                    started_at=None,
+                    completed_at=None,
                 )
                 tasks.append(task)
 

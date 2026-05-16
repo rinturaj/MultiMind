@@ -171,6 +171,7 @@ class EventBus:
                 source=source,
                 payload={"repo_name": repo_name},
                 repo_id=repo_id,
+                task_id=None,
             )
         )
 
@@ -268,6 +269,7 @@ class EventBus:
                 source=source,
                 payload={"agent_type": agent_type},
                 repo_id=repo_id,
+                task_id=None,
             )
         )
 
@@ -292,6 +294,7 @@ class EventBus:
                 source=source,
                 payload={"agent_type": agent_type, "result": result},
                 repo_id=repo_id,
+                task_id=None,
             )
         )
 
