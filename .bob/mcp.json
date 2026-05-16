@@ -1,0 +1,21 @@
+{
+  "mcpServers": {
+    "repomesh": {
+      "command": "python",
+      "args": [
+        "-u",
+        "start_mcp_server.py"
+      ],
+      "cwd": "${workspaceFolder}",
+      "env": {
+        "PYTHONPATH": "${workspaceFolder}/src",
+        "PYTHONUNBUFFERED": "1"
+      },
+      "disabled": false,
+      "alwaysAllow": [],
+      "disabledTools": []
+    }
+  }
+}
+
+// Made with Bob

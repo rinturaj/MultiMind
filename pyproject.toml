@@ -36,6 +36,8 @@ dependencies = [
     "python-dotenv>=1.0.0",
     "rich>=13.7.0",
     "httpx>=0.26.0",
+    "mcp>=1.0.0",
+    "fastmcp>=0.1.0",
 ]
 
 [project.optional-dependencies]
